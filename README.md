@@ -15,3 +15,5 @@ terraform apply
 The `bucket/output.tf` will display the (half random) name of the bucket. This value should be pasted into `terraform.tf`.
 
 NOTE: The state for the bucket creation is local. In other words; you'll see `bucket/terraform.tfstate`. Only the code in `./` uses remote state.
+
+Now you can uncomment all lines in `terraform.tf` and apply again. (You may need to `terraform init -migrate-state` to start the migration.)
