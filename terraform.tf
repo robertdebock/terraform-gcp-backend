@@ -1,6 +1,6 @@
-terraform {
-  backend "gcs"{
-    bucket      = "terraform-state-szddvg"
-    prefix      = "robert-"
-  }
-}
+# terraform {
+#   backend "gcs"{
+#     bucket      = "terraform-state-wccnsn"
+#     prefix      = "robert"
+#   }
+# }
