@@ -8,4 +8,5 @@ resource "random_string" "default" {
 resource "google_storage_bucket" "default" {
   name          = "terraform-state-${random_string.default.result}"
   location      = "EU"
+  force_destroy = true
 }
